@@ -1,0 +1,32 @@
+<div class="jumbotron">
+  <h1 class="display-4">Listado de Productos</h1>
+  <p class="lead">Productos registrados en el sistema<b><h3> Total:  {{total}}</h3></b></p>
+  <button type="button" class="btn btn-primary btn-lg" onclick="window.location='/';" >
+            <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Registrar Producto Nuevo
+        </button>
+        <div style="max-height: 400px; overflow: auto;">
+  <table class="table table-striped">
+    <thead>
+        <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Price</th>
+        <th scope="col">Thumbnail</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each productos}}
+         <tr>
+        <td class="col-6">{{title}}</td>
+        <td class="col-2">{{price}}</td>
+        <td>
+            <div style="height: 100px;">
+                <img src={{thumbnail}} class="rounded mh-100" alt="..."></td>
+            </div>
+        </tr>
+        {{/each}}
+       
+    </tbody>
+</table>
+</div>
+
+</div>

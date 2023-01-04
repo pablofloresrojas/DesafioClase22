@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Escalera",
+    "price": 1000,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Ladder-512.png",
+    "id": 1
+  },
+  {
+    "title": "Serrucho",
+    "price": 1000,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Saw-512.png",
+    "id": 2
+  },
+  {
+    "title": "Martillo",
+    "price": 1000,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Hammer-512.png",
+    "id": 3
+  },
+  {
+    "title": "Casco",
+    "price": 456.78,
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Helmet_safety-512.png",
+    "id": 4
+  },
+  {
+    "title": "3339898938983",
+    "price": "3983983",
+    "thumbnail": "https://cdn1.iconfinder.com/data/icons/construction-tool-line-foreman-equipment/512/Helmet_safety-512.png",
+    "id": 5
+  }
+]
